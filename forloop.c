@@ -1,4 +1,4 @@
-/*//1.wap to get multiplication table of the given no
+//1.wap to get multiplication table of the given no
 #include<stdio.h>
 int main(){
 int num,c,range;
@@ -179,7 +179,6 @@ for(int i=1;i<=limit;i++){
 printf("%d ",start);
 start+=i;
 }}
-*/
 //wap to print the series -13 -8 -4 -1 1 2
 #include<stdio.h>
 int main(){
@@ -190,6 +189,16 @@ printf("%d ",start);
 start+=diff;
 diff--;
 }}
+// WAP in C to print given series .2 9 28 65 126 217
+ #include<stdio.h>
+  2 int main(){
+  3         int num,i;
+  4         scanf("%d",&num);
+  5         for(i=1;i<=num;i++){
+  6                 int result=i*i*i+1;
+  7                 printf("%d ",result);
+  8         }
+  9 }
 
 
 
