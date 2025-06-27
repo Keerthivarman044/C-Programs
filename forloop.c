@@ -231,9 +231,146 @@ diff--;
   else if(dum==9)
   printf("nine");
   }
-  
   }
-
+// wap to count the even digits
+#include<stdio.h>
+int main(){
+ int num,c=0,temp;
+ scanf("%d",&num);
+ for(;num;num/=10){
+temp=num%10;
+if(temp%2==0)
+ c++;
+ }
+ printf("%d",c);
+ }
+ //wap to sum of last 3 odd digits
+ #include<stdio.h>
+ int main(){
+ int num,c=0,sum=0,temp;
+scanf("%d",&num);
+for(;c<3;num/=10){
+ temp=num%10;
+if(temp%2!=0){
+ sum=sum+temp;
+ c++;
+ }
+ }
+ printf("%d",sum);
+}
+//wap to print last 3 digit from last
+ #include<stdio.h>
+ int main(){
+ int num,temp,c=0;
+ scanf("%d",&num);
+ for(;num;num/=10){
+ if(c<3){
+ temp=num%10;
+ printf("%d ",temp);
+ }
+ c++;
+}
+ }
+ //wap to get the first digit
+ #include<stdio.h>
+ int main(){
+ int num,temp,rev=0,dum;
+ scanf("%d",&num);
+ for(;num;num/=10){
+ temp=num%10;
+rev=rev*10+temp;
+ }
+ dum=temp%10;
+printf("%d",dum);
+ }
+ //wap to reverse a digit more than 5
+ #include<stdio.h>
+ int main(){
+ int num,rev=0,temp;
+ scanf("%d",&num);
+for(;num;num/=10){
+ temp=num%10;
+ if(temp>5)
+ rev=rev*10+temp;
+ }
+ printf("%d",rev);
+ }
+ //wap for sum of first 3 digits
+ #include<stdio.h>
+ int main(){
+ int c=0, num,rev=0,sum=0,dum,temp;
+ scanf("%d",&num);
+ for(;num;num/=10){
+ temp=num%10;
+ rev=rev*10+temp;
+ }
+ printf("%d\n",rev);
+for(;rev;rev/=10){
+ dum=rev%10;
+ if(c<3)
+ sum+=dum;
+ c++;
+ }
+ printf("%d",sum);
+ }
+ // wap to print the last 2 digit
+ #include<stdio.h>
+ int main(){
+ int num,temp,c=0;
+ scanf("%d",&num);
+ for(;num;num/=10){
+ temp=num%10;
+ if(c==1)
+ printf("%d",temp);
+ c++;
+ }
+ }
+ //wap to print middle digit
+ #include<stdio.h>
+ int main(){
+ int temp1, num,mid,temp,c=0;
+ scanf("%d",&num);
+temp=num;
+ for(;temp;temp/=10)
+ c++;
+ mid = c/2;
+ temp=num;
+ for(int i=0;i<c-mid;i++){
+ temp1=temp%10;
+ temp/=10;
+ }
+ printf("%d",temp1);
+ }
+//wap to sum first and last digit
+#include<stdio.h>
+int main(){
+ int num,temp;
+ scanf("%d",&num);
+ temp=num;
+ int last=temp%10;//12345%10=5
+int first;
+ for(;temp;temp/=10){
+ first=temp;//1.first=1234//2.first=123//3.first=12//4.first=1//5.1/10=0 condition false
+ }
+ printf("%d",first+last);
+ }
+ */
+ //wap to sum first and second last digit
+ #include<stdio.h>
+ int main(){
+ int num,last,first,temp;
+ scanf("%d",&num);
+ temp=num;
+ for(int i=0;i<2;i++){
+ last=temp%10;
+ temp/=10;}
+ printf("%d\n",last);
+ for(;temp;temp/=10)
+ first=temp;
+printf("%d\n",first);
+ printf("sum=%d",first+last);
+ }
+ 
 
 
 
