@@ -191,14 +191,48 @@ diff--;
 }}
 // WAP in C to print given series .2 9 28 65 126 217
  #include<stdio.h>
-  2 int main(){
-  3         int num,i;
-  4         scanf("%d",&num);
-  5         for(i=1;i<=num;i++){
-  6                 int result=i*i*i+1;
-  7                 printf("%d ",result);
-  8         }
-  9 }
+   int main(){
+           int num,i;
+           scanf("%d",&num);
+           for(i=1;i<=num;i++){
+                   int result=i*i*i+1;
+                   printf("%d ",result);
+           }
+   }
+//wap to print the number into words
+  #include<stdio.h>
+  int main(){
+  int dum, correct=0,rev=0, num,temp;
+  scanf("%d",&num);
+  for(;num;num/=10){
+  temp=num%10;
+  rev=rev*10+temp;
+  }
+  for(;rev;rev/=10){
+  dum=rev%10;
+  if(dum==0)
+  printf("zero ");
+  else if(dum==1)
+  printf("one ");
+  else if(dum==2)
+  printf("two ");
+  else if(dum==3)
+  printf("three ");
+  else if(dum==4)
+  printf("four ");
+  else if(dum==5)
+  printf("five ");
+  else if(dum==6)
+  printf("six ");
+  else if(dum==7)
+  printf("seven");
+  else if(dum==8)
+  printf("eight");
+  else if(dum==9)
+  printf("nine");
+  }
+  
+  }
 
 
 
