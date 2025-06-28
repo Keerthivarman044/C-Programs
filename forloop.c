@@ -370,7 +370,40 @@ int first;
 printf("%d\n",first);
  printf("sum=%d",first+last);
  }
- 
+  // wap to delete the specific num
+ #include<stdio.h>
+ int main(){
+ int num,del,temp,rev=0,dum,rev2=0;
+ scanf("%d %d",&num,&del);
+ for(;num;num/=10){
+ temp=num%10;
+ if(temp!=del)
+ rev=rev*10+temp;
+ }
+ printf("%d",rev);
+ for(;rev;rev/=10){
+ dum=rev%10;
+rev2=rev2*10+dum;
+ }
+ printf("\n%d",rev2);
+}
+ //wap to replace the multiple of specific digit with one
+#include<stdio.h>
+ int main(){
+ int dum, temp, num,rev=0,mul;
+ scanf("%d %d",&num,&mul);
+ for(;num;num/=10){
+ temp=num%10;
+ rev=rev*10+temp;
+}
+ for(;rev;rev/=10){
+ dum=rev%10;
+ if(dum%mul==0)
+ printf("1");
+ else
+ printf("%d",dum);
+ }
+}
 
 
 
