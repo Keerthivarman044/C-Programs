@@ -1,4 +1,4 @@
-/*
+
 //sum of two differnt numbers
 #include<stdio.h>
 int main(){
@@ -94,7 +94,7 @@ scanf("%d %d %d",&num,&pos1,&pos2);
 num=num &~(1<<pos1);
 num=num &~(1<<pos2);
 printf("%d",num);
-}*/
+}
 //wap to toggle a specific bit
 #include<stdio.h>
 int main(){
