@@ -404,6 +404,59 @@ rev2=rev2*10+dum;
  printf("%d",dum);
  }
 }
+ //Wap to check the given num is prime or not
+ #include<stdio.h>
+ int main(){
+ int num,c=0;
+ scanf("%d",&num);
+ for(int i=1;i<=num;i++){
+ if(num%i==0)
+ c++;
+ }
+ if(c==2)
+ printf("prime no");
+ else
+ printf("not a prime");
+ }
+ //wap to check the given no is prime or not methode 2
+ #include<stdio.h>
+ int main(){
+ int num,c=0;
+ scanf("%d",&num);
+ for(int i=2;i<num;i++)
+ if(num%i==0)
+ c++;
+ if(c==0 && num!=1)
+ printf("prime");
+else
+ printf("not a prime");
+ }
+//wap to check the given num is prime or not methode 3
+ #include<stdio.h>
+ int main(){
+ int num,i;
+ scanf("%d",&num);
+ for(i=2;i<num;i++)
+ if(num%i==0)
+ break;
+ if(num==i)
+ printf("prime");
+ else printf("not a prime");
+ }
+ 
+ //wap to check the number is perfect no or not
+  #include<stdio.h>
+ int main(){
+ int num,sum=0;
+ scanf("%d",&num);
+ for(int i=1;i<num;i++)
+ if(num%i==0)
+ sum+=i;
+ if(num==sum)
+ printf("perfect no");
+ else
+ printf("not a perfect no");
+ }
 
 
 
