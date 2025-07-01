@@ -1,4 +1,4 @@
-/*
+
 //wap to right rotation of the bits
 #include<stdio.h>
 int main(){
@@ -99,7 +99,6 @@ for(pos=31;pos>=0;pos--)
 printf("%d",num>>pos&1);
 printf("\n%d",num);
 }
-*/
 //wap to reverse the nipple
 #include<stdio.h>
 int main(){
