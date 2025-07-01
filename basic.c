@@ -104,6 +104,26 @@ num=num^1<<pos1;
 num=num^1<<pos2;
 printf("%d",num); 
 }
+//wap to delete 0th bit in the number
+ #include<stdio.h>
+ int main(){
+ int num,pos;
+ scanf("%d",&num);
+ printf("%d\n",num);
+ printf("%d",num>>1);
+ } 
+ //wap to delete the specific bit
+ #include<stdio.h>
+ int main(){
+ unsigned int num,pos,n1,n2;
+ scanf("%u %u",&num,&pos);
+ n1=num<<(31-pos);
+ n1=n1>>(31-pos);
+ n2=num>>(pos+1);
+ n2=n2<<pos;
+ num=n1|n2;
+ printf("%u",num);
+ }
 
 
 
