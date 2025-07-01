@@ -1,4 +1,4 @@
-/*
+
 //wap to print square pattern
 #include<stdio.h>
 int main(){
@@ -63,7 +63,7 @@ printf("* ");
 printf("\n");
 }
 }
-*/
+
 //wap to print inverted pramyid
 #include<stdio.h>
 int main(){
