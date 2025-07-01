@@ -1,4 +1,4 @@
-/*//1.sum of digits
+//1.sum of digits
 #include<stdio.h>
 int main(){
 int num,sum=0;
@@ -210,7 +210,6 @@ goto l1;
 }
 printf("%d",num);
 }
-*/
 //16.reverse a no
 #include<stdio.h>
 int main(){
