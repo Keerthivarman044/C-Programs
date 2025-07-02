@@ -1,4 +1,4 @@
-/*
+
 //wap to print square pattern
 #include<stdio.h>
 int main(){
@@ -310,7 +310,6 @@ printf("\n");
 5 4 3
 * * * *
 5 4 3 2 1
-*/
 #include<stdio.h>
 int main(){
 int n;
