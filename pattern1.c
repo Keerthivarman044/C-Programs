@@ -326,7 +326,109 @@ printf("* ");
 printf("\n");
 }
 }
-
+ //wap to print the following pattern
+ 
+               20
+             16  17
+           12  14  16 
+        8  11   14   17
+       4  8   12   16  20
+ #include<stdio.h>
+ int main(){
+ int sum,n,i,j,s,mul;
+ scanf("%d",&n);
+ for(i=0,mul=n;i<n;i++,mul--){
+ for(s=0;s<n-i-1;s++)
+printf("  ");
+ sum=0+i;
+ for(j=0;j<i+1;j++){
+ printf("%d   ", (4*mul)+(sum*j));
+ }
+ printf("\n");
+ }
+ }
+//wap to print this pattern
+         E
+       1 2
+     C D E
+   1 2 3 4
+ A B C D E
+ 
+ #include<stdio.h>
+ int main(){
+ int n,i,s,j,ch;
+ scanf("%d",&n);
+ for(i=0;i<n;i++){
+ for(int s=0;s<n-i-1;s++)
+ printf("  ");
+ if(i%2==0){
+ ch='a'+n-1-i;
+ for(j=0;j<i+1;j++)
+ printf("%c ",ch+j);
+ }
+ else{
+ for(j=0;j<i+1;j++)
+ printf("%d ",j+1);
+ }
+ printf("\n");
+ }
+ }
+//wap to print the following pattern
+         #
+       A B
+     # # #
+   A B C D
+ # # # # #
+ 
+ #include<stdio.h>
+int main(){
+ int n,i,s,j,ch;
+ scanf("%d",&n);
+ for(i=0;i<n;i++){
+ for(s=0;s<n-i-1;s++)
+ printf("  ");
+ ch='A';
+ for(j=0;j<i+1;j++){
+ if(i%2==0)
+ printf("# ");
+ else
+ printf("%c ",ch+j);
+ }
+ printf("\n");
+}
+}
+ //wap to print the following pattern 
+     A
+    A B
+   A B C
+  A B C D
+ A B C D E
+  A B C D
+   A B C
+   A B
+    A
+ */
+ #include<stdio.h>
+ int main(){
+ int n,s,i,j,ch;
+ scanf("%d",&n);
+ for(i=0;i<n/2+1;i++){
+ for(s=0;s<n/2-i;s++)
+ printf("  ");
+ ch='A';
+ for(j=0;j<i+1;j++)
+ printf("%c   ",ch+j);
+ printf("\n");
+ }
+ for(i=0;i<n/2;i++){
+ for(s=0;s<i+1;s++)
+ printf("  ");
+ ch='A';
+ for(j=0;j<n/2-i;j++)
+ printf("%c   ",ch+j);
+ printf("\n");
+ }
+ }
 
 
 
