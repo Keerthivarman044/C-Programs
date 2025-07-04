@@ -1,4 +1,4 @@
-/*
+
 //wap to print prime no in given limit
 #include<stdio.h>
 int main(){
@@ -112,7 +112,6 @@ printf("%d x %d = %d  ",j,i,i*j);
 printf("\n");
 }
 }
-*/
 //wap to print factorial of the number
 #include<stdio.h>
 int main(){
