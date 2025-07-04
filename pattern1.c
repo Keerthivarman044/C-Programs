@@ -429,7 +429,134 @@ int main(){
  printf("\n");
  }
  }
-
+/wap to print the following pattern
+ 1 2 3 4 *
+ 1 2 3 * 5
+ 1 2 * 4 5
+ 1 * 3 4 5
+ * 2 3 4 5
+ 
+ #include<stdio.h>
+int main(){
+int n,i,j;
+ scanf("%d",&n);
+ for(i=0;i<n;i++){
+ for(j=0;j<n;j++){
+ if(j==n-i-1)
+ printf("* ");
+ else printf("%d ",j+1);
+ }
+ printf("\n");
+ }
+ }
+//wap to print the followig pattern
+ E D C B A
+ * D C B A
+ * * C B A
+ * * * B A
+ * * * * A
+ #include<stdio.h>
+ int main(){
+ int n,ch,i,j,s;
+ scanf("%d",&n);
+ for(i=0,ch='E';i<n;i++,ch--){
+ for(s=0;s<i;s++)
+ printf("* ");
+ for(j=0;j<n-i;j++)
+ printf("%c ",ch-j);
+printf("\n");
+ }
+ }
+ //wap to print the following pattern
+ 1
+ 2 6
+ 3 7 10
+ 4 8 11 13
+ 5 9 12 14 15
+ 
+ #include<stdio.h>
+ int main(){
+ int n,i,j,mul;
+ scanf("%d",&n);
+ int temp=1;
+ for( i=0;i<n;i++){
+ int val=temp;
+ printf("%d ",temp);
+ mul=n-1;
+ for( j=0;j<i;j++,mul--){
+ val=val+mul;
+ printf("%d ",val);
+ }
+ printf("\n");
+ temp++;
+ }
+}
+// wap to print the following pattern
+ 1
+ 321
+ 54321
+ 7654321
+ 
+ #include<stdio.h>
+ int main(){
+ int n,i,j,sum;
+ scanf("%d",&n);
+for(i=0,sum=1;i<n;i++){
+ for(j=0;j<sum;j++)
+ printf("%d ",sum-j);
+ printf("\n");
+ sum+=2;
+ }
+ }
+ //wap to print the following pattern
+1 2 4 7 11 16
+1 2 4 7 11
+1 2 4 7
+1 2 4
+1 2
+1
+ 
+ #include<stdio.h>
+ int main(){
+ int n,i,j,sum;
+ scanf("%d",&n);
+ for(i=0;i<n;i++){
+ for(j=0,sum=1;j<n-i;j++){
+ sum=sum+j;
+ printf("%d ",sum);
+ }
+ printf("\n");
+ }
+ }
+ // wap to print the following pattern
+ 2
+ 2 3
+ 2 3 5
+ 2 3 5 7
+ 2 3 5 7 11
+ */
+ #include<stdio.h>
+ int main(){
+ int num,temp,n,i,j,c;
+ scanf("%d",&n);
+ for(i=0;i<n;i++){
+ num=2;
+ c=0;
+ while(c<=i){
+ for(temp=2;temp<num;temp++){
+ if(num%temp==0)
+ break;
+ }
+ if(temp==num){
+ printf("%d ",num);
+ c++;
+ }
+ num++;
+ }
+ printf("\n");
+ }
+ }
+ 
 
 
 
