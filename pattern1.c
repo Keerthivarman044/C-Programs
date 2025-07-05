@@ -1,4 +1,4 @@
-/*
+
 //wap to print square pattern
 #include<stdio.h>
 int main(){
@@ -15,7 +15,6 @@ printf("\n");
 #include<stdio.h>
 int main(){
 int n;
-
 scanf("%d",&n);
 for(int i=0;i<n;i++){
 for(int j=0;j<i+1;j++)
@@ -152,11 +151,11 @@ printf("\n");
 }
 
 //wap to print the pattern
-//1 2 3 4 5
-//a b c d
-//1 2 3
-//a b
-//1
+1 2 3 4 5
+a b c d
+1 2 3
+a b
+1
 #include<stdio.h>
 int main(){
 int n;
