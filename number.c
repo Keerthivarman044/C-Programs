@@ -123,7 +123,48 @@ printf("%d ",i);
 }
 printf("%d",fact);
 }
-
+ //wap to print amstong number at given range 
+ #include<stdio.h>
+ int main(){
+ int n,i,power,sum=0,temp,c=0,digit;
+ scanf("%d",&n);
+ for(temp=n;temp;temp/=10)
+ c++;
+ for(temp=n;temp;temp/=10){
+ digit=temp%10;
+  power=1;
+ for(int k=0;k<c;k++){
+ power=power*digit;
+ 
+ }sum=sum+power;
+ }
+ if(sum==n)
+ printf("amstrong");
+ else printf("not armstrong");
+ }
+ //wap to print armstrong number in the given range
+ #include<stdio.h>
+int main(){
+ int digit,start,end,temp,num,c,sum,power,i,j;
+ scanf("%d %d",&start,&end);
+ for(num=start;num<=end;num++){
+ temp=num;
+ c=0;
+ for(i=temp;i;i/=10)
+ c++;
+ sum=0;
+ for(temp=num;temp;temp/=10){
+ digit=temp%10;
+ power=1;
+ for(j=0;j<c;j++){
+ power=power*digit;
+ }
+ sum=sum+power;
+ }
+ if(sum==num)
+ printf("%d\n ",num);
+ }
+}
 
 
 
