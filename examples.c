@@ -1,4 +1,4 @@
-/* Sum of digit in b/w 3 to 8 .
+ Sum of digit in b/w 3 to 8 .
 i/p1: 123 o/p1: 3
 i/p2: 276 o/p2: 13
 
@@ -128,7 +128,7 @@ sum=sum+fact;
 if(sum==n)
 printf("strong no");
 else printf("not a strong no");
-}*/
+}
 //wap to print the strong numbers within the limits
 #include<stdio.h>
 int main(){
