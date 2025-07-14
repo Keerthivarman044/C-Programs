@@ -1,4 +1,4 @@
-/*//wap to swap of two numbers using pointers
+//wap to swap of two numbers using pointers
 #include<stdio.h>
 int main(){
 int a,b,temp;
@@ -86,7 +86,7 @@ for(int j=0;j<4;j++,cp=cp+1){
 }
 printf("%x ",i);
 }
-*/
+
 //wap to print the binary of the float using pointer
 #include<stdio.h>
 int main(){
