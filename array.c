@@ -1,4 +1,4 @@
-/*//wap to print the prime no in the array
+//wap to print the prime no in the array
 #include<stdio.h>
 int main(){
 int n,i,c=0,j;
@@ -18,7 +18,6 @@ c++;
 }
 printf("\nc=%d",c);
 }
-
 //wap to scan the elements of the array only if the elements are prime
 #include<stdio.h>
 int main(){
@@ -34,7 +33,6 @@ break;
 if(arr[i]==j)
 i++;
 }
-
 for(i=0;i<n;i++)
 printf("%d ",arr[i]);
 }
@@ -77,8 +75,7 @@ arr[j]=temp;
 printf("\nafter: ");
 for(i=0;i<n;i++)
 printf("%d ",arr[i]); 
-
-}*/
+}
 //wap to swap the adjecent element in the array
 #include<stdio.h>
 int main(){
