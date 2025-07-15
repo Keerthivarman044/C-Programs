@@ -96,7 +96,26 @@ printf("\nafter: ");
 for(i=0;i<n;i++)
 printf("%d ",arr[i]);
 }
-
+//wap to find the largest element in given array
+#include<stdio.h>
+int main(){
+int n,i,j,large,index;
+scanf("%d",&n);
+int arr[n];
+for(i=0;i<n;i++)
+    scanf("%d",&arr[i]);
+for(i=0;i<n;i++)
+    printf("%d ",arr[i]);
+large=arr[0];
+index=0;
+for(i=1;i<n;i++){
+    if(arr[i]>large){
+        large=arr[i];
+        index=i;
+    }
+}
+printf("\nlargest=%d index=%d",large,index);
+}
 
 
 
