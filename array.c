@@ -116,7 +116,34 @@ for(i=1;i<n;i++){
 }
 printf("\nlargest=%d index=%d",large,index);
 }
+//wap to delete the prime element from the integer
+#include<stdio.h>
+int main(){
+int n,i,j,k;
+scanf("%d",&n);
+int arr[n];
+for(i=0;i<n;i++)
+scanf("%d",&arr[i]);
+for(i=0;i<n;i++)
+    printf("%d ",arr[i]);
+for(i=0;i<n;i++){
+    for(j=2;j<arr[i];j++){
+        if(arr[i]%j==0)
+            break;
+    }
+    if(arr[i]==j){
+        for(k=i;k<n;k++){
+            arr[k]=arr[k+1];
+            n--;
+            i--;
+        }
+    }
+}
+ printf("\n after: ");
+for(i=0;i<n;i++)
+    printf(" %d ",arr[i]);
 
+}
 
 
 
