@@ -24,7 +24,7 @@ i/p: int n= 39 o/p: 19
 8. Write a Program in C to delete 5th bit .
 i/p: int n= 99 o/p: 35
 
-*//*
+*/
 //Write a Program in C to set 3rd and 2nd bit .
   //  i/p: int n= 51 o/p : 63
 #include<stdio.h>
@@ -56,8 +56,8 @@ printf("%d",num>>pos&1);
 printf("\n%d\n",num);
 
 }
-Write a Program in C to toggle 1st and 4th bit .
- i/p: int n= 42 o/p: 56
+//Write a Program in C to toggle 1st and 4th bit .
+ //i/p: int n= 42 o/p: 56
 #include<stdio.h>
 int main(){
 int num,pos,bit_pos1,bit_pos2;
@@ -71,8 +71,8 @@ for(pos=31;pos>=0;pos--)
 printf("%d",num>>pos&1);
 printf("\n%d\n",num);
 }
-Write a Program in C to delete 0th, 1st , 2nd bit .
-i/p: int n= 511 o/p: 63
+//Write a Program in C to delete 0th, 1st , 2nd bit .
+//i/p: int n= 511 o/p: 63
 
 #include<stdio.h>
 int main(){
@@ -86,10 +86,10 @@ for(pos=31;pos>=0;pos--)
 printf("%d",num>>pos&1);
 printf("\n%d\n",num);
 }
-Write a Program in C to delete 2nd bit
-i/p: int n= 39 o/p: 19 
-Write a Program in C to delete 5th bit
-i/p: int n= 99 o/p: 35 
+//Write a Program in C to delete 2nd bit
+//i/p: int n= 39 o/p: 19 
+//Write a Program in C to delete 5th bit
+//i/p: int n= 99 o/p: 35 
 
 #include<stdio.h>
 int main(){
