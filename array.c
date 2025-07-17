@@ -1,4 +1,4 @@
-/*//wap to print the prime no in the array
+//wap to print the prime no in the array
 #include<stdio.h>
 int main(){
 int n,i,c=0,j;
@@ -196,7 +196,7 @@ arr[j]=temp;
 for(i=0;i<n;i++)
 printf("%d ",arr[i]);
 }
-*/
+
 //wap to find the largest element in the array
 #include<stdio.h>
 int main(){
