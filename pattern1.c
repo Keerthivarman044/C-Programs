@@ -787,7 +787,37 @@ else printf("  ");
 printf("\n");
 }
 }
+//wap to print the  following pattern
 
+  T   R   P   N   L
+     S   P   M  J
+       R   P  N
+         Q  N
+           P
+
+
+#include<stdio.h>
+int main(){
+int n,i,j,s,diff;
+char ch='T';
+scanf("%d",&n);
+for(i=0;i<n;i++,ch--){
+        for(s=0;s<i;s++)
+        printf("  ");
+for(j=0;j<n-i;j++){
+    if(i%2==0){
+        diff=j*2;
+        printf(" %c  ",ch-diff);
+    }
+    else{
+        diff=j*3;
+        printf(" %c  ",ch-diff);
+    }
+}
+    printf("\n");
+
+}
+}
 
 
 
