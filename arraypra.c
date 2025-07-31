@@ -1,4 +1,3 @@
-/*
 WAP in C to print array using int pointer.
 i/p: int a[5]={11,22,33,44,55}, *p=a;
 o/p: 11 22 33 44 55
@@ -306,7 +305,6 @@ printf("%d ",arr[i]);
 WAP in C to sort 1st 3 element of array .
 i/p: int a[7]={11,33,22,2,9,1,6};
 o/p: 11 22 33 2 9 1 6
-*/
 #include<stdio.h>
 void main(){
 int arr[7]={11,33,22,2,9,1,6};
