@@ -1,4 +1,4 @@
-/*WAP in C to scan and print string with space.
+WAP in C to scan and print string with space.
 i/p: vector india coding sirji , char s[30];
 o/p: vector india coding sirji  
 
@@ -147,7 +147,6 @@ else printf("%d is not a strong num",len);
 WAP in C to reverse string using while loop .
 i/p: char s[10]=”gnidoc 321”;
 o/p: 123 coding
-*/
 #include<stdio.h>
 int main(){
 char s[10]="gnidoc 321";
