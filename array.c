@@ -197,7 +197,7 @@ for(i=0;i<n;i++)
 printf("%d ",arr[i]);
 }
 
-//wap to find the largest element in the array
+//wap to find the  second largest element in the array
 #include<stdio.h>
 int main(){
 int n,i,l,sl;
