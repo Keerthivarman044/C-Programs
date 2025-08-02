@@ -1,4 +1,4 @@
-/*
+
 WAP in C to print array using int pointer.
 i/p: int a[5]={11,22,33,44,55}, *p=a;
 o/p: 11 22 33 44 55
@@ -555,9 +555,9 @@ ele--;
 for(i=0;i<ele;i++)
 printf("%d ",arr[i]);
 }
-WAP in C to count all duplicate elements from array.
+/*WAP in C to count all duplicate elements from array.
 i/p: a[10]={3,3,2,4,4,2,5,3,4,9}
-o/p: 3 ->3 times ,2-> 2 times , 4-> 3 times
+o/p: 3 ->3 times ,2-> 2 times , 4-> 3 times*/
 
 #include<stdio.h>
 int main(){
@@ -578,9 +578,9 @@ printf("%d->%dtyms\n",arr[i],c);
 }
 
 }
-WAP in C to product of digit of all array elements.
+/*WAP in C to product of digit of all array elements.
 i/p: int a[5]={11,202,234,456,90};
-o/p: int a[5]={1, 0, 24, 120, 0};
+o/p: int a[5]={1, 0, 24, 120, 0};*/
 
 #include<stdio.h>
 int main(){
@@ -595,9 +595,9 @@ pro=pro*dig;
 printf("%d ",pro);
 }
 }
-WAP in C to store factorial of array in another array.
+/*WAP in C to store factorial of array in another array.
 i/p: int a[4]={ 4, 5, 6, 4};
-o/p: int b[4]={24,120,720,24}
+o/p: int b[4]={24,120,720,24}*/
 #include<stdio.h>
 int main(){
 int arr[4]={4,5,6,4},i,fact,j;
@@ -609,9 +609,9 @@ fact=fact*j;
 printf("%d ",fact);
 }
 }
-WAP in C to print and count prime in array .
+/*WAP in C to print and count prime in array .
 i/p: int a[7]={3,4,5,6,7,8,9};
-o/p: 3 5 7 , count= 3
+o/p: 3 5 7 , count= 3*/
 
 #include<stdio.h>
 int main(){
@@ -628,9 +628,9 @@ printf("%d ",arr[i]);
 }
 printf("\n count=%d",c);
 }
-WAP in C to print and count perfect in array .
+/*WAP in C to print and count perfect in array .
 i/p: int a[7]={3,4,5,6,7,28,9};
-o/p: 6 28 , count= 2
+o/p: 6 28 , count= 2*/
 #include<stdio.h>
 int main(){
 int arr[7]={3,4,5,6,7,28,9},i,j,ele,sum,c=0;
@@ -648,9 +648,9 @@ c++;
 }
 printf("count=%d ",c);
 }
-WAP in C to print and count strong in array .
-i/p: int a[7]={2,4,2,6,145,28,1};
-o/p: 2 2 145 1 ,count= 4
+//WAP in C to print and count strong in array .
+//i/p: int a[7]={2,4,2,6,145,28,1};
+//o/p: 2 2 145 1 ,count= 4
 #include<stdio.h>
 int main(){
 int arr[7]={2,4,6,2,145,28,1},i,j,sum,fact,ele,c=0,dig,temp;
@@ -671,9 +671,9 @@ printf("%d ",arr[i]);
 }
 printf("c=%d ",c);
 }
-WAP in C to print and count armstrong in array .
-i/p: int a[7]={22,4,21,6,153,28,11};
-o/p: 4 6 153 ,count= 3*/
+//WAP in C to print and count armstrong in array .
+//i/p: int a[7]={22,4,21,6,153,28,11};
+//o/p: 4 6 153 ,count= 3
 #include<stdio.h>
 int main(){
 int arr[7]={22,4,21,6,153,28,11},i,j,sum,power,temp,dig,c,ele,tot=0;
