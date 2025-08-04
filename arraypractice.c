@@ -1,4 +1,4 @@
-/*
+
 WAP in C to print array using int pointer.
 i/p: int a[5]={11,22,33,44,55}, *p=a;
 o/p: 11 22 33 44 55
@@ -1002,11 +1002,10 @@ printf("%d ",arr[i]);
 //  for(i=0;i<ele;i++)
 // printf("%d ",arr[i]);
 }
-51. WAP in C to delete odd palindrome number
+ WAP in C to delete odd palindrome number
 from array .
 i/p: int a[6]={22,141,222,45,33,77};
 o/p: int a[6]={22,222,45}
-*/
 #include<stdio.h>
 int main(){
 int arr[6]={22,141,222,45,33,77},i,j,rev,dig,temp,ele;
