@@ -42,7 +42,7 @@ int ele=sizeof(arr)/sizeof(arr[0]);
 int i,j,t;
 for(i=0;i<4;i++){
 for(j=0;j<4;j++){
-if(arr[i]>arr[j]){
+if(arr[i]<arr[j]){
 t=arr[i];
 arr[i]=arr[j];
 arr[j]=t;
