@@ -1,4 +1,4 @@
-/*WAP in C to scan and print string with space.
+WAP in C to scan and print string with space.
 i/p: vector india coding sirji , char s[30];
 o/p: vector india coding sirji  
 
@@ -627,7 +627,7 @@ printf("%c-->%d, ",s[i],c);
 }
 WAP in C to reverse all words in string.
 i/p: char s[20]=“coding sirji vector”
-o/p:char s[20]= “gnidoc ijris rotcev”*/
+o/p:char s[20]= “gnidoc ijris rotcev”
 #include<stdio.h>
 int main(){
 char s[20]="coding king varman",*p,*q,*start,temp;
