@@ -1,4 +1,4 @@
-/*wap to print the binary of the given num using functions
+wap to print the binary of the given num using functions
 #include<stdio.h>
 void binary_print(int);
 int main(){
@@ -223,7 +223,7 @@ WAP in C using function to reverse all elements
 of array ,store results in another array.
 i/p: int a[6]={12,42,123,34,78,414};
 o/p: int b[6]={21,24,321,43,87,414};
-void rev_fun(int *a,int *b , int ele );*/
+void rev_fun(int *a,int *b , int ele );
 #include<stdio.h>
 void rev_fun(int *,int *b,int );
 void main(){
