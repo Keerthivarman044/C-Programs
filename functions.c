@@ -1,4 +1,4 @@
-/*wap to print the binary of the given num using functions
+wap to print the binary of the given num using functions
 #include<stdio.h>
 void binary_print(int);
 int main(){
@@ -497,9 +497,8 @@ string ,count no of word having digits .
 i/p: char s[20]=”coding sirji vec123 A123 ”;
 o/p: gnidoc ijris 321cev 321A
 word count = 2
-void rev_word_fun(char * s );
-int count_word_fun(char * s )
-*/
+//void rev_word_fun(char * s );
+//int count_word_fun(char * s );
 #include<stdio.h>
 void rev_word_fun(char*);
 int count_word_fun(char*);
