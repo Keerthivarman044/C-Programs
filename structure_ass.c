@@ -1,3 +1,21 @@
+/*WAP to perform following task using structure. 
+1) allocate dynamic memory for n student’s data
+ 2) store data using run time input
+ 3) print the data based on requirement :
+ a) design function to print rollno , name and marks of student whose rollno is even number.
+ b) design function to print rollno and marks of student whose name’s first and last letter is vowel.
+ c) design function to print mark of student whose names length pow of 2 number.
+ d) design function to print name of student who got highest marks.
+ e) design function to print rollno and name of student whose marks abr between 45 to 85.
+ f) design function to print rollno , name and marks of student who failed (marks < 35) in exam.
+input : 6 
+1 abi 45
+2 keerthii 67
+3 arthi 88
+4 varman 97
+5 amaran 83
+6 sandhiya 32 
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -105,6 +123,7 @@ for(i=0;i<n;i++){
         printf("%d %s %.2f \n",p[i]->rollno,p[i]->name,p[i]->marks);
 }
 }
+
 
 
 
